@@ -1,8 +1,0 @@
-{
-  "/V1/": {
-    "target": "'https://neoread.neovel.io",
-    "secure": true,
-    "changeOrigin": true,
-    "logLevel": "debug"
-  }
-}
