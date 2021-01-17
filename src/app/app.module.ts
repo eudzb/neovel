@@ -11,12 +11,16 @@ import { BookListComponent } from './components/book-list/book-list.component';
 
 // ? PAGES
 import { MainPageComponent } from './pages/main-page/main-page.component';
+import { BookInfoPageComponent } from './pages/book-info-page/book-info-page.component';
+import { TopBannerComponent } from './components/top-banner/top-banner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainPageComponent,
-    BookListComponent
+    BookListComponent,
+    BookInfoPageComponent,
+    TopBannerComponent
   ],
   imports: [
     BrowserModule,

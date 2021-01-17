@@ -3,4 +3,6 @@ export interface Book {
   name: string;
   genre: string[];
   authors: string[];
+  rating?: number;
+  followers?: number;
 }

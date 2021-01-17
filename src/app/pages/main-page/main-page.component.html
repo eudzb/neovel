@@ -18,8 +18,9 @@
   <div class="my-5 d-flex align-items-start justify-content-center flex-wrap">
     <app-book-list
       *ngFor="let book of books"
+      [id]="book.id"
       [name]="book.name"
-      [genre]="book.genre"
+      [genres]="book.genre"
       [authors]="book.authors"
     ></app-book-list>
   </div>
