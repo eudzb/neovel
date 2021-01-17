@@ -1,0 +1,26 @@
+<div
+  class="main-header d-flex flex-column align-items-center justify-content-center"
+>
+  <img
+    src="https://neovel.io/wp-content/uploads/2019/05/Neovel_Logo_MD.png"
+    alt="NEOVEL"
+    height="100"
+    class="my-2"
+  />
+  <span class="my-4 text-light text-uppercase"
+    >A gathering place for all lovers of novel!</span
+  >
+</div>
+<div class="container my-5">
+  <h3 class="text-center text-dark font-weight-bold">
+    Discover the most read books
+  </h3>
+  <div class="my-5 d-flex align-items-start justify-content-center flex-wrap">
+    <app-book-list
+      *ngFor="let book of books"
+      [name]="book.name"
+      [genre]="book.genre"
+      [authors]="book.authors"
+    ></app-book-list>
+  </div>
+</div>

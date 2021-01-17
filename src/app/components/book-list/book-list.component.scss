@@ -1,0 +1,21 @@
+.book-section {
+  cursor: pointer;
+}
+
+.book {
+  height: 200px;
+  width: 150px;
+  transition: .3 ease;
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+  background: rgba(40, 180, 164, 0.5);
+}
+
+.book-section:hover .book {
+  background: rgba(40, 180, 164, 0.7);
+}
+
+.sm-text {
+  font-size: 0.9rem;
+}
