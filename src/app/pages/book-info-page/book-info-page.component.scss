@@ -1,0 +1,36 @@
+.book-cover {
+  height: 300px;
+  width: 220px;
+  background: rgba(40, 180, 164, 0.5);
+}
+
+.info-section {
+  margin-left: 10rem;
+}
+
+@media(max-width: 767px) {
+  .info-section {
+    margin-left: 0;
+    width: 75%;
+  }
+}
+
+.title {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  z-index: 10;
+  text-shadow: 2px 2px #fff;
+}
+
+.title-underline {
+  position: absolute;
+  border-top: 20px solid #9FDAD1;
+  width: 100%;
+  bottom: -3px;
+  left: 10px;
+  z-index: -1;
+}
+
+.genre {
+  color: #9FDAD1;
+}
