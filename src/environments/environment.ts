@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  NEOVEL_API : "https://neoread.neovel.io",
+  NEOVEL_API : "https://neoreader-preprod.neovel.io",
 };
 
 /*
